@@ -29,4 +29,16 @@ public class CheckoutSteps {
     public void theTotalPriceShouldBeC(int total) throws Throwable {
         assertEquals(total, checkout.total());
     }
+
+    @Given("^I have (\\d+) cucumbers? in my basket$")
+    public void iHaveCucumberInMyBasket(int arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @When("^I (?:visit|go to) the homepage$")
+    public void iVisitTheHomepage() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 }
